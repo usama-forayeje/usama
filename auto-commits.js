@@ -3,11 +3,11 @@ const { execSync } = require('child_process');
 const path = require('path');
 
 const repoPath = "C:/Users/HP/Desktop/new-project";
-const startDate = new Date(2024, 4, 1); 
+startDate.setDate(startDate.getDate() - 200); 
 
 process.chdir(repoPath);
 
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 200; i++) {
     const currentDate = new Date(startDate);
     currentDate.setDate(startDate.getDate() + i);
 
