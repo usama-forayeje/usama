@@ -18,7 +18,7 @@ for (let i = 0; i < 200; i++) {
         continue; 
     }
 
-    const commitsToday = Math.floor(Math.random() * 5) + 1;
+    const commitsToday = Math.floor(Math.random() * 3) + 1;
 
     for (let j = 0; j < commitsToday; j++) {
         const formattedDate = currentDate.toISOString().split('T')[0];
